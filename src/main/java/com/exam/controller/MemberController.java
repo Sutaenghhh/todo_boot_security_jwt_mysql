@@ -32,7 +32,7 @@ public class MemberController {
 	@GetMapping("/")
 	public String main( ) {
 		
-		return "main home- SCM Poll 실습 99999";
+		return "main home- SCM Poll 실습 자동으로 배포함";
 	}
 	
 	@GetMapping("/hello")
